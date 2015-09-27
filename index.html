@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Riddles!</title>
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+    </head>
+    <body>
+        <header>
+            <h2 id="riddle">Riddles!</h2>
+        </header>
+        <div id="page">
+            <button id="speaker" data-state="on"></button>
+            <audio autoplay loop>
+                <source src="res/EarthPrelude.mp3" />
+                <source src="res/EarthPrelude.ogg" />
+            </audio>
+            <div id="hint">Please enable JavaScript</div>
+        </div>
+        <script src="js/jquery-1.11.1.min.js"></script>
+        <script src="js/sound.js"></script>
+        <script src="js/riddles.js"></script>
+    </body>
+</html>
